@@ -1,0 +1,45 @@
+# Runtime state (contains file IDs, paths)
+.sync-state/
+
+# Google credentials (sensitive)
+credentials/
+token.json
+client_secret.json
+credentials.json
+
+# Build artifacts
+GoogleMediaBackup/build/
+*.app
+
+# Python (legacy)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Downloaded media (large files)
+downloads/
+
+# Transcriptions (generated)
+transcripts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+xcuserdata/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+
+# Env
+.env
+.env.local
