@@ -1,0 +1,24 @@
+# Google Media Backup - Windows Dependencies
+
+# Google API
+requests>=2.31.0
+google-auth>=2.25.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.110.0
+
+# UI
+customtkinter>=5.2.0
+pystray>=0.19.4
+Pillow>=10.0.0
+
+# Notifications
+plyer>=2.1.0
+
+# Transcription
+faster-whisper>=1.0.0
+
+# Windows-specific
+pywin32>=306
+
+# Utilities
+python-dateutil>=2.8.2
